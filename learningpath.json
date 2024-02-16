@@ -1,172 +1,196 @@
 {
-    "FeatureDescription": "<p>Ask your mentor for the crendentials to the courses</p>",
-    "Scopes": {
-        "Frontend": [
-            {
-                "Title": "Angular fundamentals",
-                "Description": "<p>Take the angular 101 courses (the topics that you don't know)<br/>https://courses.unosquare.com/moodle/course/view.php?id=22</p>",
-                "Hours": 7,
-                "Order": 1,
-                "Scope": "Frontend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "Angular Testing Masterclass",
-                "Description": "<p>https://www.udemy.com/course/angular-testing-course/</p>",
-                "Hours": 6,
-                "Order": 2,
-                "Scope": "Frontend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "RxJS Basics",
-                "Description": "https://courses.unosquare.com/moodle/course/view.php?id=51",
-                "Hours": 6,
-                "Order": 3,
-                "Scope": "Frontend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "Angular Pro",
-                "Description": "https://courses.unosquare.com/moodle/course/view.php?id=23",
-                "Hours": 18,
-                "Order": 4,
-                "Scope": "Frontend",
-                "Seniority": "Intermediate"
-            },
-            {
-                "Title": "NGRX Store + Effects",
-                "Description": "https://courses.unosquare.com/moodle/course/view.php?id=24",
-                "Hours": 6,
-                "Order": 7,
-                "Scope": "Frontend",
-                "Seniority": "Intermediate"
-            },
-            {
-                "Title": "RxJS MasterClass",
-                "Description": "https://courses.unosquare.com/moodle/course/view.php?id=88",
-                "Hours": 4,
-                "Order": 6,
-                "Scope": "Frontend",
-                "Seniority": "Intermediate"
-            }
+  "FeatureDescription": "<p>Ask your mentor for the crendentials to the courses</p>",
+  "Scopes": {
+    "Frontend": [
+      {
+        "Title": "HTML fundamentals",
+        "Description": "<p>Refresh your knowledge about HTML 5<br/>https://www.udemy.com/course/aprende-html5-y-css3-desde-cero/learn/lecture/13049438?start=0#overview</p>",
+        "Hours": 7,
+        "Order": 1,
+        "Scope": "Frontend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "CSS fundamentals",
+        "Description": "<p>Refresh your knowledge about CSS<br/>https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/learn/lecture/9520810?start=0#overview</p>",
+        "Hours": 26,
+        "Order": 2,
+        "Scope": "Frontend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "Angular fundamentals",
+        "Description": "<p>Take the angular 101 courses (the topics that you don't know)<br/>https://courses.unosquare.com/moodle/course/view.php?id=22</p>",
+        "Hours": 7,
+        "Order": 3,
+        "Scope": "Frontend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "Angular Testing Masterclass",
+        "Description": "<p>https://www.udemy.com/course/angular-testing-course/</p>",
+        "Hours": 6,
+        "Order": 4,
+        "Scope": "Frontend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "RxJS Basics",
+        "Description": "https://courses.unosquare.com/moodle/course/view.php?id=51",
+        "Hours": 6,
+        "Order": 5,
+        "Scope": "Frontend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "Angular Pro",
+        "Description": "https://courses.unosquare.com/moodle/course/view.php?id=23",
+        "Hours": 18,
+        "Order": 6,
+        "Scope": "Frontend",
+        "Seniority": "Intermediate"
+      },
+      {
+        "Title": "NGRX Store + Effects",
+        "Description": "https://courses.unosquare.com/moodle/course/view.php?id=24",
+        "Hours": 6,
+        "Order": 7,
+        "Scope": "Frontend",
+        "Seniority": "Intermediate"
+      },
+      {
+        "Title": "RxJS MasterClass",
+        "Description": "https://courses.unosquare.com/moodle/course/view.php?id=88",
+        "Hours": 4,
+        "Order": 8,
+        "Scope": "Frontend",
+        "Seniority": "Intermediate"
+      }
+    ],
+    "Backend": [
+      {
+        "Title": "Foundational C# with Microsoft",
+        "Description": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/",
+        "Hours": 30,
+        "Order": 1,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "C# Concepts",
+        "Description": "<p>Review the following C# concepts:</p><ul><li>Elvis Operator</li><li>Extension Methods</li><li>Anonymous Methods</li><li>Anonymous Types</li></ul>",
+        "Hours": 4,
+        "Order": 2,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "LINQ Tutorial",
+        "Description": "https://www.udemy.com/course/linq-tutorial-master-the-key-csharp-library/learn/lecture/29355596?start=150#overview",
+        "Hours": 4,
+        "Order": 3,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "Entity Framework Core",
+        "Description": "https://www.udemy.com/course/entity-framework-core-the-complete-guide-net-5/",
+        "Hours": 6,
+        "Order": 4,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "ASP.NET Course",
+        "Description": "<p>Take asp.net Courses / Do Example Exercise<br/>https://courses.unosquare.com/moodle/course/view.php?id=144<br/><ul><li>MVC Routing</li><li>Http Verbs</li><li>Status Codes</li><li>Passing Parameters</li><li>Route</li><li>Query</li><li>Body</li><li>Services</li><li>Testing</li><li>Postman</li><li>Configure Dependency Injection</li><li>Scopes</li><li>Transient</li><li>Scoped</li><li>Singleton</li></ul>",
+        "Hours": 6,
+        "Order": 5,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "xUNit Course",
+        "Description": "<p>https://www.udemy.com/course/unit-testing-net-core-2x-applications-with-xunit-net/learn/lecture/11227842?start=0#overview<br/>Writing tests in .NET using xUnit - xUnit Tutorial<br/>https://www.youtube.com/watch?v=2Wp8en1I9oQ&list=PLeSfEQFWRHkbcYx52fzeCMfP-ZpC1zSCP&index=1\nGetting started with Mocking using Moq in .NET (Core, Framework, Standard) https://www.youtube.com/watch?v=9ZvDBSQa_so&list=PLeSfEQFWRHkbcYx52fzeCMfP-ZpC1zSCP&index=2</p>",
+        "Hours": 6,
+        "Order": 6,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "SQL Book",
+        "Description": "<p>https://www.oreilly.com/library/view/t-sql-fundamentals-4th/9780138101930/?_gl=1*u25ipf*_ga*MTY4NTU3Nzk5Ny4xNzA1NTE1MTUx*_ga_092EL089CH*MTcwODA0NTA2NS4zLjEuMTcwODA0NTA4Ny4zOC4wLjA.<br/>Chapters 1,2,3,4,5,6,8,9,10, and 12</p>",
+        "Hours": 14,
+        "Order": 7,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "Code Challenge",
+        "Description": "The challenge is attached to this item",
+        "Attachments": [
+          "CodeChallenge.docx"
         ],
-        "Backend": [
-            {
-                "Title": "Foundational C# with Microsoft",
-                "Description": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/",
-                "Hours": 30,
-                "Order": 1,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "C# Concepts",
-                "Description": "<p>Review the following C# concepts:</p><ul><li>Elvis Operator</li><li>Extension Methods</li><li>Anonymous Methods</li><li>Anonymous Types</li></ul>",
-                "Hours": 4,
-                "Order": 2,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "LINQ Tutorial",
-                "Description": "https://www.udemy.com/course/linq-tutorial-master-the-key-csharp-library/learn/lecture/29355596?start=150#overview",
-                "Hours": 4,
-                "Order": 3,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "Entity Framework Core",
-                "Description": "https://www.udemy.com/course/entity-framework-core-the-complete-guide-net-5/",
-                "Hours": 6,
-                "Order": 4,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "ASP.NET Course",
-                "Description": "<p>Take asp.net Courses / Do Example Exercise<br/>https://courses.unosquare.com/moodle/course/view.php?id=144<br/><ul><li>MVC Routing</li><li>Http Verbs</li><li>Status Codes</li><li>Passing Parameters</li><li>Route</li><li>Query</li><li>Body</li><li>Services</li><li>Testing</li><li>Postman</li><li>Configure Dependency Injection</li><li>Scopes</li><li>Transient</li><li>Scoped</li><li>Singleton</li></ul>",
-                "Hours": 6,
-                "Order": 5,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "xUNit Course",
-                "Description": "<p>https://www.udemy.com/course/unit-testing-net-core-2x-applications-with-xunit-net/learn/lecture/11227842?start=0#overview<br/>Writing tests in .NET using xUnit - xUnit Tutorial<br/>https://www.youtube.com/watch?v=2Wp8en1I9oQ&list=PLeSfEQFWRHkbcYx52fzeCMfP-ZpC1zSCP&index=1\nGetting started with Mocking using Moq in .NET (Core, Framework, Standard) https://www.youtube.com/watch?v=9ZvDBSQa_so&list=PLeSfEQFWRHkbcYx52fzeCMfP-ZpC1zSCP&index=2</p>",
-                "Hours": 6,
-                "Order": 6,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "Code Challenge",
-                "Description": "The challenge is attached to this item",
-                "Attachments": [
-                    "CodeChallenge.docx"
-                ],
-                "Hours": 24,
-                "Order": 7,
-                "Scope": "Backend",
-                "Seniority": "Junior"
-            },
-            {
-                "Title": "C# Anti-patterns",
-                "Description": "https://www.udemy.com/course/csharp-anti-patterns-and-bad-programming-practices/learn/lecture/16169183?start=15#overview",
-                "Hours": 4,
-                "Order": 7,
-                "Scope": "Backend",
-                "Seniority": "Intermediate"
-            },
-            {
-                "Title": "Azure Course AZ-900",
-                "Description": "https://learn.acloud.guru/course/az-900-microsoft-azure-fundamentals/dashboard",
-                "Hours": 18,
-                "Order": 8,
-                "Scope": "Backend",
-                "Seniority": "Intermediate"
-            },
-            {
-                "Title": "Microservices",
-                "Description": "https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/",
-                "Hours": 25,
-                "Order": 9,
-                "Scope": "Backend",
-                "Seniority": "Intermediate"
-            },
-            {
-                "Title": "017 - RabbitMQ (Senior+)",
-                "Description": "https://www.udemy.com/course/getting-started-net-core-microservices-rabbitmq",
-                "Hours": 4,
-                "Order": 10,
-                "Scope": "Backend",
-                "Seniority": "Senior"
-            },
-            {
-                "Title": "High Performance Coding",
-                "Description": "https://www.udemy.com/course/high-performance-coding-with-net-core-and-csharp/learn/lecture/8651342?start=0#overview",
-                "Hours": 7,
-                "Order": 11,
-                "Scope": "Backend",
-                "Seniority": "Senior"
-            },
-            {
-                "Title": "CI/CD",
-                "Description": "https://www.udemy.com/course/ci-cd-devops/learn/lecture/27870518?start=0#overview",
-                "Hours": 2,
-                "Order": 12,
-                "Scope": "Backend",
-                "Seniority": "Senior"
-            },
-            {
-                "Title": "Advanced topics in C#",
-                "Description": "https://www.udemy.com/course/advanced-topics-csharp/",
-                "Hours": 5,
-                "Order": 13,
-                "Scope": "Backend",
-                "Seniority": "Senior"
-            }
-        ]
-    }
+        "Hours": 24,
+        "Order": 8,
+        "Scope": "Backend",
+        "Seniority": "Junior"
+      },
+      {
+        "Title": "C# Anti-patterns",
+        "Description": "https://www.udemy.com/course/csharp-anti-patterns-and-bad-programming-practices/learn/lecture/16169183?start=15#overview",
+        "Hours": 4,
+        "Order": 9,
+        "Scope": "Backend",
+        "Seniority": "Intermediate"
+      },
+      {
+        "Title": "Azure Course AZ-900",
+        "Description": "https://learn.acloud.guru/course/az-900-microsoft-azure-fundamentals/dashboard",
+        "Hours": 18,
+        "Order": 10,
+        "Scope": "Backend",
+        "Seniority": "Intermediate"
+      },
+      {
+        "Title": "Microservices",
+        "Description": "https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/",
+        "Hours": 25,
+        "Order": 11,
+        "Scope": "Backend",
+        "Seniority": "Intermediate"
+      },
+      {
+        "Title": "RabbitMQ (Senior+)",
+        "Description": "https://www.udemy.com/course/getting-started-net-core-microservices-rabbitmq",
+        "Hours": 4,
+        "Order": 12,
+        "Scope": "Backend",
+        "Seniority": "Senior"
+      },
+      {
+        "Title": "High Performance Coding",
+        "Description": "https://www.udemy.com/course/high-performance-coding-with-net-core-and-csharp/learn/lecture/8651342?start=0#overview",
+        "Hours": 7,
+        "Order": 13,
+        "Scope": "Backend",
+        "Seniority": "Senior"
+      },
+      {
+        "Title": "CI/CD",
+        "Description": "https://www.udemy.com/course/ci-cd-devops/learn/lecture/27870518?start=0#overview",
+        "Hours": 2,
+        "Order": 14,
+        "Scope": "Backend",
+        "Seniority": "Senior"
+      },
+      {
+        "Title": "Advanced topics in C#",
+        "Description": "https://www.udemy.com/course/advanced-topics-csharp/",
+        "Hours": 5,
+        "Order": 15,
+        "Scope": "Backend",
+        "Seniority": "Senior"
+      }
+    ]
+  }
 }
